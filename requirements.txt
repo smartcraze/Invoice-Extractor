@@ -3,5 +3,4 @@ google-generativeai
 python-dotenv
 langchain
 pyPDF2
-chromadb
-pdf2image
+
