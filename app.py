@@ -34,14 +34,14 @@ def inputImageSetup(upload_file):
 st.set_page_config(page_title="Multilanguage Invoice Extractor")
 st.header("Multilanguage Invoice Extractor")
 Yourinput_prompt = st.text_input("Input prompt:", key="input_prompt")
-upload_file = st.file_uploader("Choose an image of the invoice...", type=["jpg", "jpeg", "pdf","png"])
+upload_file = st.file_uploader("Choose an image of the invoice...", type=["jpg", "jpeg","png"])
 
 ## Display image
 if upload_file is not None:
     image = Image.open(upload_file)
     st.image(image, caption='Uploaded Image.', use_column_width=True)
 
-submit = st.button("Tell Me")
+submit = st.button(" Submit ")
 input_prompt = """
 You are an expert in understanding invoices. We will upload an image of an invoice and you will have to answer any question based on the uploaded invoice image.
 """
