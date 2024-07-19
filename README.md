@@ -51,14 +51,12 @@ A Streamlit application to extract and understand information from invoice image
 3. Upload an invoice image and input your prompt to get the response based on the uploaded invoice image.
 
 ## Project Structure
-
-multilanguage-invoice-extractor/
+```multilanguage-invoice-extractor/
 ├── app.py
 ├── requirements.txt
 ├── .env
 └── README.md
-
-
+```
 - `app.py`: Main application file containing the Streamlit app code.
 - `requirements.txt`: List of dependencies required for the project.
 - `.env`: Environment file to store the Google API key.
